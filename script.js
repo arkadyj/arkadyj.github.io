@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://sleepy-everglades-11865.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://api.trello.com/1';
   const trelloApiRoot = 'https://sleepy-everglades-11865.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
